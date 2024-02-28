@@ -1,0 +1,8 @@
+terraform {
+  cloud {
+    organization = "dbg"
+    workspaces {
+      name = "hashicat-gcp"
+    }
+  }
+}
